@@ -61,7 +61,7 @@ export default function WebsiteCreationOptions() {
       </div>
 
       {/* Main heading */}
-      <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-[#241c15] mb-6 sm:mb-8">
+      <h2 className="text-xl sm:text-2xl md:text-3xl font-[550] text-[#241c15] mb-6 sm:mb-8">
         Create a website with Mailchimp
       </h2>
 
@@ -70,7 +70,7 @@ export default function WebsiteCreationOptions() {
         {cards.map((card, index) => (
           <div key={index} className="bg-white border border-[#e6e6e6] rounded-lg overflow-hidden flex flex-col">
             <div className="p-4 sm:p-6 py-8 sm:py-14 flex-grow flex flex-col items-center text-center">
-              <h3 className="text-lg sm:text-xl font-medium text-[#241c15] mb-3">
+              <h3 className="text-lg sm:text-xl font-[550] text-[#241c15] mb-3">
                 {card.title}
               </h3>
               <p className="text-sm sm:text-[14px] text-[#21262A] mb-4 sm:mb-6">
